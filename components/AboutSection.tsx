@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import aboutMoreImg from '../src/images/about_more.jpeg';
 
 const AboutSection: React.FC = () => {
   return (
@@ -14,7 +15,7 @@ const AboutSection: React.FC = () => {
           <div className="relative w-full h-72 md:h-96 rounded overflow-hidden border border-white/10 group">
              <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-all duration-500 z-10"></div>
              <img 
-               src="/src/images/about_more.jpeg" 
+               src={aboutMoreImg} 
                alt="About Cyclen" 
                className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
              />

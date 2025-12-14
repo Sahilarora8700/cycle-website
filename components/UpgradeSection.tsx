@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
+import oldBikeImg from '../src/images/oldbike.jpeg';
 
 const UpgradeSection: React.FC = () => {
   const [sliderPosition, setSliderPosition] = useState(50);
@@ -31,7 +32,7 @@ const UpgradeSection: React.FC = () => {
         {/* Old Bike Image - Full Fill */}
         <div className="absolute inset-0 z-0">
             <img 
-              src="/src/images/oldbike.jpeg" 
+              src={oldBikeImg} 
               alt="Old Bike" 
               className="w-full h-full object-cover"
             />

@@ -1,4 +1,5 @@
 import React from 'react';
+import healthImg from '../src/images/health.jpeg';
 
 const HealthyHeart: React.FC = () => {
   return (
@@ -18,7 +19,7 @@ const HealthyHeart: React.FC = () => {
           {/* Image - Full Cover */}
           <div className="absolute inset-0 z-0">
             <img
-              src="/src/images/health.jpeg"
+              src={healthImg}
               alt="Cyclist Sprinting"
               className="w-full h-full object-cover"
             />

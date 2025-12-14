@@ -1,4 +1,6 @@
 import React from "react";
+import heroSection from "../src/images/hero section.jpeg";
+import hero2 from "../src/images/hero2.jpeg";
 
 const Hero: React.FC = () => {
   return (
@@ -7,7 +9,7 @@ const Hero: React.FC = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/images/hero section.jpeg"
+          src={heroSection}
           alt="Hero Bike Background"
           className="w-full h-full object-cover object-[center_30%] brightness-75 contrast-105"
         />
@@ -58,7 +60,7 @@ const Hero: React.FC = () => {
           {/* Left Feature Card */}
           <div className="bg-black/40 backdrop-blur-md border border-white/10 p-3 rounded-xl flex items-center gap-4 max-w-sm">
             <img
-              src="/src/images/hero2.jpeg"
+              src={hero2}
               alt="Cyclist thumb"
               className="w-16 h-16 rounded-lg object-cover border border-white/10"
             />
