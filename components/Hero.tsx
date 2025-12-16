@@ -44,12 +44,12 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Frame Dot */}
-        <div className="absolute top-[52%] right-[34%] hidden md:block">
+        <div className="absolute top-[51%] right-[36.1%] hidden md:block">
           <div className="w-5 h-5 rounded-full bg-[#ff6b35] border-[3px] border-white"></div>
         </div>
 
         {/* Wheels Dot */}
-        <div className="absolute bottom-[22%] right-[25.5%] hidden md:block">
+        <div className="absolute bottom-[28.9%] right-[21.9%] hidden md:block">
           <div className="w-5 h-5 rounded-full bg-[#ff6b35] border-[3px] border-white"></div>
         </div>
 
@@ -75,9 +75,13 @@ const Hero: React.FC = () => {
           </div>
 
           {/* Right Text (Hidden on very small screens) */}
-          <div className="hidden md:block text-right max-w-xs text-gray-200">
+          <div className="hidden md:block text-left max-w-xs text-gray-200">
             <h4 className="uppercase font-bold text-sm">Since It's More</h4>
-            <p className="text-xs mt-1">In general, mountain bike provide more significant protection.</p>
+            <p className="text-xs mt-1 leading-relaxed">
+              In general, mountain bike<br />
+              provide more significant<br />
+              protection.
+            </p>
           </div>
 
         </div>
