@@ -105,3 +105,5 @@ This project is open source and available under the MIT License.
 <!-- Badge 4 -->
 
 <!-- Badge 5 -->
+
+<!-- Badge 6 -->
